@@ -1,0 +1,162 @@
+
+body{
+    font-family: "overpass";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+}
+
+h3{
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #11009E;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+    width: auto;
+    color: white;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 400px;
+    margin: 30px;
+    position:absolute;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position:relative;
+}
+
+.feature-box{
+    padding: 4%;
+    position: relative;
+}
+
+.icon{
+    color: #4942E4;
+    margin: 2rem;
+}
+
+.icon:hover{
+    color: #11009E;
+}
+
+#testimonials{
+    color: #ffff;
+    background-color: #4942E4;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #4942E4;
+    padding-bottom: 20px;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-colum{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #11009E;
+    padding: 6% 15%;
+}
+
+#cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+
+.cta-download-button{
+    margin: 10px;
+}
+
+#footer{
+    color: black;
+    padding: 3% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+@media (max-width: 992px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: relative;
+        transform: rotate(0);
+        margin: 30px 0 0 0;
+    }
+}
